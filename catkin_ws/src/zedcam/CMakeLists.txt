@@ -7,7 +7,7 @@ project(zedcam)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED COMPONENTS zed_ros_wrapper)
+find_package(catkin REQUIRED COMPONENTS zed_wrapper)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -101,7 +101,7 @@ find_package(catkin REQUIRED COMPONENTS zed_ros_wrapper)
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES zedcam
- CATKIN_DEPENDS zed_ros_wrapper
+ CATKIN_DEPENDS zed_wrapper
 #  DEPENDS system_lib
 )
 

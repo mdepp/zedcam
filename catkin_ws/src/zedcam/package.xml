@@ -34,7 +34,7 @@
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
 
-  <depend>zed_ros_wrapper</depend>
+  <depend>zed_wrapper</depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->

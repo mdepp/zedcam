@@ -9,3 +9,8 @@ run-dev: build
 .PHONY: catkin-build
 catkin-build:
 	docker run -v $$(pwd):/app zedcam bash -c "cd catkin_ws && catkin build"
+
+.PHONY: rosdep
+rosdep:
+	rosdep install -y --from-paths /app/catkin_ws/ --ignore-src /app/catkin_ws
+
