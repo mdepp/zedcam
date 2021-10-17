@@ -1,4 +1,4 @@
-<!-- Launch ZED camera for visual odometry and RTAB-Map for SLAM -->
+<!-- Launch ZED camera -->
 <launch>
   <arg name="rgb_topic" default="rgb/image_raw"/>
   <arg name="camera_info_topic" default="rgb/camera_info"/>
